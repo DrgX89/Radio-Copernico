@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  flex-direction: column; 
+  background-color: red;
+  background-image: url('Recursos/Fondo.webp'); /* Asegúrate que la ruta sea correcta */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  margin: 0;
+  padding: 0; 
+  background-image: url("Recursos/banner.avif"); /* Asegúrate que la ruta sea correcta */
+  background-repeat: no-repeat;
+  background-position: left top; 
+  background-size: 626px 240px; 
+  padding-left: 650px;
+  display: flex;
+  align-items: flex-start;
+  width: auto;
+  height: 240px;
+}
+
+/* ... otros estilos ... */
+
+aside {
+  width: 580px; 
+  align-self: flex-start; 
+  margin-top: auto; 
+}
+
+main {
+  display: flex; /* Activa flexbox en <main> */
+  flex-grow: 1;
+}
+
+.chat-container {
+  width: calc(100% - 600px); 
+  margin-left: 20px; 
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#chat-messages {
+  height: 400px; 
+  overflow-y: scroll;
+}

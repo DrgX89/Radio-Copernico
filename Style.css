@@ -1,0 +1,14 @@
+body {
+    font-family: Consolas, monospace;
+    font-size: 40px;
+    background-image: url('../Recursos/Fondo.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+p {
+    font-size: 30px;
+    color:goldenrod;
+}
