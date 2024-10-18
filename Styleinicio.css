@@ -1,28 +1,47 @@
 body {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;  /* <-- Agrega esta línea */
   background-color: red;
-  background-image: url('Recursos/Fondo.webp'); /* Asegúrate que la ruta sea correcta */
+  background-image: url('./Recursos/Fondo.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
+.contenedor-banner {
+  text-align: center; 
+}
+
+.contenedor-banner img {
+  display: inline-block;
+  vertical-align: middle; 
+  margin: 0 10px; 
+}
+
 header {
   margin: 0;
   padding: 0; 
-  background-image: url("Recursos/banner.avif"); /* Asegúrate que la ruta sea correcta */
+  background-image: url("Recursos/banner.avif");
   background-repeat: no-repeat;
   background-position: left top; 
   background-size: 626px 240px; 
   padding-left: 650px;
   display: flex;
   align-items: flex-start;
-  width: auto;
+  width: auto; 
   height: 240px;
 }
 
-/* ... otros estilos ... */
+.titulo-banner {
+  margin-top: 50px; 
+  margin-left: 10px; 
+  font-size: 80px;
+  color: crimson;
+}
+
+.widget-container {
+  width: 580px; 
+}
 
 aside {
   width: 580px; 
@@ -31,7 +50,7 @@ aside {
 }
 
 main {
-  display: flex; /* Activa flexbox en <main> */
+  display: flex; 
   flex-grow: 1;
 }
 
